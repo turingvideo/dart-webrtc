@@ -128,10 +128,10 @@ class RTCPeerConnectionWeb extends RTCPeerConnection {
     });
 
     if (!browser.isFirefox) {
-      _jsPc.onConnectionStateChange.listen((_) {
-        _connectionState = peerConnectionStateForString(_jsPc.connectionState);
-        onConnectionState?.call(_connectionState!);
-      });
+      // _jsPc.onConnectionStateChange.listen((_) {
+      //   _connectionState = peerConnectionStateForString(_jsPc.connectionState);
+      //   onConnectionState?.call(_connectionState!);
+      // });
     }
 
     _jsPc.onNegotiationNeeded.listen((_) {
