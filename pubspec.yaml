@@ -11,7 +11,7 @@ dependencies:
   webrtc_interface:
     git:
       url: git@github.com:turingvideo/webrtc-interface.git
-      ref: ios_media_recorder
+      ref: 7f0c454d2ac8117bf921ea8c962af83c19eb3f6a
 
 dev_dependencies:
   build_runner: ^1.10.0
